@@ -18,6 +18,11 @@ body {
     z-index: 9;
 }
 
+#welcome img {
+    height: 300px;
+  border-radius: 50%;  
+}
+
 h1 {
     font-size: 40px;
     font-family: sans-serif;
@@ -128,4 +133,13 @@ a {
 
 a {
     text-decoration: underline !important;
+}
+
+img {
+    width: 350px;
+    transition: transform .2s;
+}
+
+#gallery img:hover {
+    transform: scale(0.9);
 }
